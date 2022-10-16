@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="My projects website with usage of CSS utility classes, responsive images and grids, responsive navigation and multiple page hosting.">
+    
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    
+    <title>Olena Babko</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-light fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Olena Babko</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class = "content">
+        <h2 class = "welcome">You are welcome here!</h2>
+        <h1>Olena Babko</h1>
+        <h4>future Python developer from Ukraine</h4>
+        <div class="rowButtons">
+            <a href = "about.html">
+                <button id = "aboutMeButton" class = "aboutMeButton" href = "about.html">About me</button>
+            </a>
+            <a href = "about.html#contact">
+                <button id = "contactMeButton" class = "contactMeButton">Contact me</button>
+            </a>
+        </div>
+    </div>
+
+    <div class = "container">
+        <div class = "row">
+            <div class = "col-sm-6 text-center border">
+                <!-- <p class = "title">Ukrainian croissants</p> -->
+                <a href = "https://splendid-baklava-695ee2.netlify.app/" target="_blank">
+                    <button id = "croissantsPageButton" class = "croissantsPageButton" href = "https://splendid-baklava-695ee2.netlify.app/">Ukrainian croissants</button>
+                </a>
+                <p>Croissant project is a multiple page hosting project consisting of 3 related responsive pages,
+                    and is already SEO friendly. I wanted to personalize the task a little. Therefore,
+                    instead of pages about croissants, appeared a page dedicated to its Ukrainian counterpart - 
+                    Kiflyky. Here you will find a step-by-step cooking recipe from the famous Ukrainian chef 
+                    Yevhen Klopotenko. I chose his recipe because he made a significant contribution to the 
+                    popularization of our culture around the world. On the contact page there is a link where 
+                    you can find his other recipes of traditional Ukrainian cuisine. 
+                </p>
+            </div>
+            <div class = "col-sm-6 text-center border">
+                <img src = "screen.jpg" alt = "Ukrainian croissants page screenshot" class = "img-fluid p-4">
+            </div>
+        </div>
+        <div class = "row">
+            <div class = "col-sm-6 text-center border">
+                <img src = "screenshot2.jpg" alt = "Weather App page screenshot" class = "img-fluid p-4">
+            </div>
+            <div class = "col-sm-6 text-center border">
+                <!-- <p class = "title">Weather App</p> -->
+                <a href = "https://earnest-yeot-3c1622.netlify.app/?" target="_blank">
+                    <button id = "weatherAppButton" class = "weatherAppButton" href = "https://earnest-yeot-3c1622.netlify.app/?">Weather App</button>
+                </a>
+                <p>The task of creating a real Weather App was not an easy one! It took a lot of time, 
+                    but in return it gave me a lot more knowledge. Weather App contains Search city engine and 
+                    Current Location button, which uses the Geolocation API to get your GPS coordinates and 
+                    display the city and current temperature using the OpenWeather API. So here are present - 
+                    API integration, unit conversion, wind speed, weather description, and weather icons.
+                </p>
+            </div>
+        </div>
+        <div class = "row">
+            <div class = "col-sm-6 text-center border">
+                <a href = "https://rad-bunny-867443.netlify.app/" target="_blank">
+                    <button id = "succulentAppButton" class = "succulentAppButton" href = "https://rad-bunny-867443.netlify.app/">Succulent App</button>
+                </a>
+                <p> This was my very first landing page from Create a landing page from scratch. The task 
+                    was to make basic page with a user interaction, dedicated to something you are passionate about.
+                    I am a huge succulent lover and so this was the first thing I thought about at that moment.  
+                </p>
+            </div>
+            <div class = "col-sm-6 text-center border">
+                <img src = "screenshot4.jpg" alt = "Succulent App page screenshot" class = "img-fluid p-4">
+            </div>
+        </div>
+        <div class = "row">
+            <div class = "col-sm-6 text-center border">
+                <img src = "screenshot1.jpg" alt = "CV page screenshot" class = "img-fluid p-4">
+            </div>
+            <div class = "col-sm-6 text-center border">
+                <a href = "https://babko.render.ua/" target="_blank">
+                    <button id = "cvPageButton" class = "cvPageButton" href = "https://babko.render.ua/">CV page</button>
+                </a>
+                <p>it was an attempt to create a new CV for future interviews. As it turned out, it was a stupid idea, 
+                    because everywhere HR ask for and save only PDFs in their databases. Therefore, there was no 
+                    longer any inspiration to bring the idea to the ideal. But it was also good training for me.
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>
